@@ -123,8 +123,3 @@ Vous avez appris à :
 - Ajoutez une dépendance compilée (ex: `cryptography`) pour voir l’impact sur la
   taille et l’intérêt du multi-stage.
 - Testez un 4ᵉ stage "debug" avec les outils de build conservés (optionnel).
-
----
-
-Souhaites-tu que je te fournisse aussi le contenu du `README.md` pour le dossier
-`05-multistage-build/` ?
