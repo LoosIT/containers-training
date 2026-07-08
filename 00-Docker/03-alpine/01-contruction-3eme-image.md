@@ -35,6 +35,10 @@ par :
 FROM alpine:3.18
 ```
 
+### ℹ️ Remarque
+
+A l'heure d'écriture de ce guide, l'une des dernières versions stable correspond à la version 3.18 mais vous pouvez utiliser une version plus récente à l'heure de votre consultation. C'est le genre d'information que vous êtes en mesure de consulter dans le registre **Docker Hub**. Vous pouvez trouver la page lié à Alpine [ici](https://hub.docker.com/_/alpine).
+
 ## 🧰 Étape 2 - Installer Python et pip avec `apk`
 
 Remplacez l’installation APT par `apk`, le gestionnaire de paquets Alpine :
