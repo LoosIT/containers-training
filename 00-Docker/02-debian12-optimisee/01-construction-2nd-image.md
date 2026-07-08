@@ -231,7 +231,8 @@ COPY app/ /app/
 # Installation de Python 3 et pip
 RUN apt-get update && \
     apt-get install -y --no-install-recommends python3 python3-pip && \
-    apt-get clean && rm -rf /var/lib/apt/lists/*
+    apt-get clean && rm -rf /var/lib/apt/lists/* && \
+    pip3 install --break-system-packages -r requirements.txt
 ```
 
 J'ai aussi décidé de déplacer la commande `COPY` avant le `RUN` pour que Docker
